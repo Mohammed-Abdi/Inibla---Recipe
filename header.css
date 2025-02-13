@@ -154,20 +154,22 @@
     text-align: center;
     flex-direction: column;
     background: var(--white);
-    padding-block: 1rem;
+    padding-block: 0.625rem;
     padding-inline: 1.875rem;
     position: absolute;
     top: 0.8rem;
     gap: 1rem;
-    right: 0.3rem;
+    right: 0.2rem;
     border-radius: 0.625rem;
     border: 1px solid var(--border);
     opacity: 0;
+    transform: translateX(100px);
     transition: all 0.3s ease-in-out;
     z-index: 99;
   }
   .header .navLinks.active {
     opacity: 1;
+    transform: translateX(0);
   }
   .header .searchBar {
     border: none;
