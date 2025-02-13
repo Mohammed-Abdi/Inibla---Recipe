@@ -5,6 +5,14 @@
   flex-direction: column;
   width: min(var(--wrapper-max-width), 100% - (var(--main-padding) * 2));
   margin-inline: auto;
+  transform: translateY(0.625rem);
+  opacity: 0;
+  transition: all 0.7s ease-in-out;
+}
+
+#wrapper.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 #wrapper h1 {

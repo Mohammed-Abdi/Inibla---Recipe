@@ -4,7 +4,15 @@
   width: 100%;
   background: var(--white);
   z-index: 99;
+  opacity: 0;
+  transform: translateY(-0.625rem);
+  transition: all 0.7s ease-in-out;
   box-shadow: 0.5px 1px 2px var(--border);
+}
+
+#header.show {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .header {
