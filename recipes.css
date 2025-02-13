@@ -1,0 +1,133 @@
+#wrapper .recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-inline: auto;
+  gap: 1.5rem;
+}
+
+#wrapper .recipe {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  max-width: 20rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid #efefef;
+  transform: scale(0.95);
+  opacity: 0.8;
+  transition: all 0.7s ease-in-out;
+}
+
+#wrapper .recipe.show {
+  transform: scale(1);
+  opacity: 1;
+}
+
+#wrapper .recipe img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+#wrapper .recipe .content {
+  margin-inline: 0.625rem;
+  padding-block: 20px;
+}
+
+#wrapper .recipeTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#wrapper .body {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  min-height: 5rem;
+  font: 500;
+}
+
+.mainIngredient {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainIngredient .textMainIngredient {
+  font-weight: 600;
+}
+
+.mainIngredients {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.recipe .mainIngredients span {
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin: 5px 0;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 0.8125rem;
+  background: var(--light-gray);
+}
+
+.recipe .buttons {
+  display: flex;
+  align-items: center;
+  margin-block: 5px 0;
+  gap: 10px;
+}
+
+.recipe .buttons .starButton {
+  display: grid;
+  place-items: center;
+  border: none;
+  background: var(--border);
+  width: 31.33px;
+  height: 31.33px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.recipe .buttons .starButton:active {
+  transform: scale(1.2) translateY(-5px);
+}
+
+.recipe .buttons .starButton i {
+  font-size: 20px;
+  color: var(--white);
+}
+
+.recipe .buttons .starButton i.colorChange {
+  color: var(--orange);
+}
+
+.recipe .buttons i {
+  font-size: 20px;
+}
+
+.recipe .buttons a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  background: var(--black);
+  text-decoration: none;
+  border-radius: 1.25rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.recipe .buttons a:hover {
+  opacity: 0.7;
+}
