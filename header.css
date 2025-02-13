@@ -132,12 +132,12 @@
     text-align: center;
     flex-direction: column;
     background: var(--white);
-    padding-block: 2.5rem 1rem;
+    padding-block: 1rem;
     padding-inline: 1.875rem;
     position: absolute;
-    top: 1rem;
+    top: 0.8rem;
     gap: 1rem;
-    right: 1.4rem;
+    right: 0.3rem;
     border-radius: 0.625rem;
     border: 1px solid var(--border);
     opacity: 0;
