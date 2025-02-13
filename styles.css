@@ -1,0 +1,17 @@
+@import url(fonts.css);
+@import url(roots.css);
+@import url(header.css);
+@import url(wrapper.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding-top: 85px;
+}

@@ -1,0 +1,9 @@
+:root {
+  --white: #ffffff;
+  --smokyWhite: #f1f1f1;
+  --black: #000000;
+  --orange: #ffa200;
+  --test: red;
+  --gradient: linear-gradient(0deg, #f1f1f1, #ffffff);
+  --border: #dedede;
+}
