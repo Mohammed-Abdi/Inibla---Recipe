@@ -21,14 +21,16 @@
   color: inherit;
 }
 
+/* Logo */
 .header .logo {
-  font-size: 24px;
-  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo .colored {
-  color: var(--orange);
-  font-size: 16px;
+.header .logo img {
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 .colored {
