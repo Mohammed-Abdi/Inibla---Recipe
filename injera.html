@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Injera-Recipe</title>
+    <link rel="icon" href="images/Logo/Light-orange-M-logo.svg" />
+    <link
+      rel="icon"
+      href="images/Logo/dark-orange-M-logo.svg"
+      media="(prefer-color-scheme:dark)"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="hidden">
+      <div class="header">
+        <!--logo-->
+        <a class="logo" href="index.html"
+          ><img src="images/Logo/dark-orange-M-logo.svg" alt=""
+        /></a>
+        <div class="rightSideHeader">
+          <!--Navigation Links-->
+          <ul class="navLinks">
+            <li><a href="index.html" class="navLink">HOME</a></li>
+          </ul>
+          <!--Search-->
+          <form action="">
+            <input
+              class="searchBar"
+              type="text"
+              placeholder="Search..."
+              required
+            /><button class="searchButton">
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+          <!--Menu for narrow devices-->
+        </div>
+        <div class="menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+    <main id="otherWrapper" class="hidden">
+      <div class="image">
+        <img src="images/samples/injera.webp" alt="injera" />
+      </div>
+      <section id="recipe-detail">
+        <h2><span class="colored">Injera</span> Recipe</h2>
+        <div class="recipe-details">
+          <p>
+            Injera is a traditional Ethiopian flatbread made from fermented teff
+            flour. It has a slightly sour taste and a unique spongy texture,
+            often used as the base for various stews and dishes.
+          </p>
+          <h3>Ingredients:</h3>
+          <div class="ingredients-list">
+            <div class="ingredient-item">
+              <span>Teff flour</span>
+              <span>2 cups</span>
+            </div>
+            <div class="ingredient-item">
+              <span>All-purpose flour</span>
+              <span>1 cup</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Water</span>
+              <span>4 cups</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Yeast</span>
+              <span>1 tsp</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Salt</span>
+              <span>1 tsp</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Sugar</span>
+              <span>1 tsp</span>
+            </div>
+          </div>
+
+          <h3>Instructions:</h3>
+          <ol>
+            <li>
+              In a large bowl, mix the teff flour, all-purpose flour, and water.
+              Stir until smooth.
+            </li>
+            <li>
+              Cover the bowl with a cloth and let the batter ferment for about
+              2-3 days at room temperature. It should become bubbly and slightly
+              sour.
+            </li>
+            <li>
+              After the fermentation period, add the yeast, salt, and sugar. Mix
+              the batter well to combine all ingredients.
+            </li>
+            <li>
+              Heat a large non-stick skillet or griddle over medium heat. Once
+              hot, lightly grease with a bit of oil or ghee.
+            </li>
+            <li>
+              Pour the batter onto the hot griddle, starting from the center and
+              working outward in a spiral motion to create a large, circular
+              shape.
+            </li>
+            <li>
+              Cover the griddle with a lid and cook for about 2-3 minutes until
+              the top is set and the injera has formed small bubbles.
+            </li>
+            <li>
+              Remove the injera from the griddle and place it on a clean cloth
+              to cool. Repeat the process with the remaining batter.
+            </li>
+            <li>
+              Once all the injera is cooked, serve immediately with your
+              favorite stews or dishes.
+            </li>
+          </ol>
+
+          <h3>Tips:</h3>
+          <ul>
+            <li>
+              For a more authentic flavor, you can use 100% teff flour, but it
+              might result in a denser texture.
+            </li>
+            <li>
+              If you're unable to find teff flour, you can substitute it with
+              other flours, but the texture and flavor may vary.
+            </li>
+            <li>
+              Make sure to use a non-stick griddle or skillet to prevent the
+              injera from sticking.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

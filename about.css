@@ -1,0 +1,41 @@
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#about p {
+  max-width: 700px;
+}
+
+#contact {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+}
+
+#contact a {
+  text-decoration: none;
+  color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+#contact a:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+#contact i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background: var(--orange);
+  border-radius: 50%;
+}

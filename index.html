@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M-Recipe</title>
-    <link rel="icon" href="images/Logo/M_ORANGE-LOGO.svg" />
+    <link rel="icon" href="images/Logo/Light-orange-M-logo.svg" />
+    <link
+      rel="icon"
+      href="images/Logo/dark-orange-M-logo.svg"
+      media="(prefer-color-scheme:dark)"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -17,27 +22,29 @@
       <div class="header">
         <!--logo-->
         <a class="logo" href="#"
-          ><img src="images/Logo/M_ORANGE-LOGO.svg" alt=""
+          ><img src="images/Logo/dark-orange-M-logo.svg" alt=""
         /></a>
-        <!--Navigation Links-->
-        <ul class="navLinks">
-          <li><a href="" class="navLink">HOME</a></li>
-          <li><a href="" class="navLink">ABOUT</a></li>
-          <li><a href="" class="navLink">RECIPES</a></li>
-          <li><a href="" class="navLink">CONTACT</a></li>
-        </ul>
-        <!--Search-->
-        <form action="">
-          <input
-            class="searchBar"
-            type="text"
-            placeholder="Search..."
-            required
-          /><button class="searchButton">
-            <i class="bx bx-search"></i>
-          </button>
-        </form>
-        <!--Menu for narrow devices-->
+        <div class="rightSideHeader">
+          <!--Navigation Links-->
+          <ul class="navLinks">
+            <li><a href="index.html" class="navLink">HOME</a></li>
+            <li><a href="#about" class="navLink">ABOUT</a></li>
+            <li><a href="#wrapper" class="navLink">RECIPES</a></li>
+            <li><a href="#contact" class="navLink">CONTACT</a></li>
+          </ul>
+          <!--Search-->
+          <form action="">
+            <input
+              class="searchBar"
+              type="text"
+              placeholder="Search..."
+              required
+            /><button class="searchButton">
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+          <!--Menu for narrow devices-->
+        </div>
         <div class="menu">
           <div class="bar"></div>
           <div class="bar"></div>
@@ -51,8 +58,9 @@
         <span class="colored">recipes</span>
       </h1>
       <div class="recipes">
+        <!--1st recipe-->
         <div class="recipe hidden">
-          <img src="images/kitfo.webp" alt="Kitfo" />
+          <img src="images/samples/kitfo.webp" alt="Kitfo" />
           <div class="content">
             <span class="recipeTitle">Kitfo</span>
             <p class="body">
@@ -68,16 +76,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="kitfo.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--2nd recipe-->
         <div class="recipe hidden">
-          <img src="images/tibs.webp" alt="Tibs" />
+          <img src="images/samples/tibs.webp" alt="Tibs" />
           <div class="content">
             <span class="recipeTitle">Tibs</span>
             <p class="body">
@@ -94,32 +102,34 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="Tibs.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--3rd recipe-->
         <div class="recipe hidden">
-          <img src="images/firfir.webp" alt="Firfir" />
+          <img src="images/samples/Dabo kolo.webp" alt="Dabo Kolo" />
           <div class="content">
-            <span class="recipeTitle">Firfir</span>
+            <span class="recipeTitle">Dabo Kolo</span>
             <p class="body">
-              Firfir is a spicy dish made with shredded injera mixed with
-              berbere and seasoned butter.
+              Dabo Kolo is a crunchy snack made from roasted dough bites
+              seasoned with chili and spices.
             </p>
             <div class="mainIngredient">
               <span class="textMainIngredient">Main Ingredients:</span>
               <div class="mainIngredients">
-                <span>injera</span>
-                <span>berbere</span>
-                <span>butter</span>
+                <span>flour</span>
+                <span>chili powder</span>
+                <span>oil</span>
+                <span>salt</span>
+                <span>spices</span>
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="daboKolo.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
@@ -127,8 +137,9 @@
           </div>
         </div>
 
+        <!--4th recipe-->
         <div class="recipe hidden">
-          <img src="images/fosolia.webp" alt="Fossolia" />
+          <img src="images/samples/fosolia.webp" alt="Fossolia" />
           <div class="content">
             <span class="recipeTitle">Fossolia</span>
             <p class="body">
@@ -144,16 +155,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="fossolia.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--5th recipe-->
         <div class="recipe hidden">
-          <img src="images/doro.webp" alt="doro" />
+          <img src="images/samples/doro.webp" alt="doro" />
           <div class="content">
             <span class="recipeTitle">Doro Wat</span>
             <p class="body">
@@ -170,16 +181,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="doroWat.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--6th recipe-->
         <div class="recipe hidden">
-          <img src="images/shiro.webp" alt="Shiro" />
+          <img src="images/samples/shiro.webp" alt="Shiro" />
           <div class="content">
             <span class="recipeTitle">Shiro</span>
             <p class="body">
@@ -196,16 +207,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="shiro.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--7th recipe-->
         <div class="recipe hidden">
-          <img src="images/injera.webp" alt="Injera" />
+          <img src="images/samples/injera.webp" alt="Injera" />
           <div class="content">
             <span class="recipeTitle">Injera</span>
             <p class="body">
@@ -220,16 +231,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="injera.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--8th recipe-->
         <div class="recipe hidden">
-          <img src="images/dulet.webp" alt="Dulet" />
+          <img src="images/samples/dulet.webp" alt="Dulet" />
           <div class="content">
             <span class="recipeTitle">Dulet</span>
             <p class="body">
@@ -246,16 +257,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="dulet.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--9th recipe-->
         <div class="recipe hidden">
-          <img src="images/ater kik.webp" alt="Ater Kik" />
+          <img src="images/samples/ater kik.webp" alt="Ater Kik" />
           <div class="content">
             <span class="recipeTitle">Ater Kik</span>
             <p class="body">
@@ -271,16 +282,16 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="ater.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--10th recipe-->
         <div class="recipe hidden">
-          <img src="images/gomen.webp" alt="Gomen" />
+          <img src="images/samples/gomen.webp" alt="Gomen" />
           <div class="content">
             <span class="recipeTitle">Gomen</span>
             <p class="body">
@@ -296,41 +307,41 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="gomen.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--11th recipe-->
         <div class="recipe hidden">
-          <img src="images/berber.webp" alt="Berbere" />
+          <img src="images/samples/firfir.webp" alt="Firfir" />
           <div class="content">
-            <span class="recipeTitle">Berbere</span>
+            <span class="recipeTitle">Firfir</span>
             <p class="body">
-              Berbere is a blend of spices central to Ethiopian cuisine, with
-              chili, garlic, and ginger.
+              Firfir is a spicy dish made with shredded injera mixed with
+              berbere and seasoned butter.
             </p>
             <div class="mainIngredient">
               <span class="textMainIngredient">Main Ingredients:</span>
               <div class="mainIngredients">
-                <span>chili powder</span>
-                <span>garlic</span>
-                <span>ginger</span>
+                <span>injera</span>
+                <span>berbere</span>
+                <span>butter</span>
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="firfir.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
-
+        <!--12th recipe-->
         <div class="recipe hidden">
-          <img src="images/Chechebsa.webp" alt="Chechebsa" />
+          <img src="images/samples/Chechebsa.webp" alt="Chechebsa" />
           <div class="content">
             <span class="recipeTitle">Chechebsa</span>
             <p class="body">
@@ -346,14 +357,60 @@
               </div>
             </div>
             <div class="buttons">
-              <a href=""
+              <a href="chechebsa.html"
                 >See Recipe <i class="bx bxs-right-arrow-circle"></i
               ></a>
               <button class="starButton"><i class="bx bxs-star"></i></button>
             </div>
           </div>
         </div>
+        <!--nth recipe-->
       </div>
+      <section id="about">
+        <h2 class="colored">About Us</h2>
+        <p>
+          This is your go-to destination for discovering traditional Ethiopian
+          recipes. From spicy stews like Doro Wat to crunchy snacks like Dabo
+          Kolo, our collection brings the rich flavors of Ethiopia to your
+          kitchen. Whether you're a seasoned cook or a curious foodie, explore
+          authentic recipes and learn about the ingredients that make Ethiopian
+          cuisine unique.
+        </p>
+        <div id="contact" class="hidden">
+          <a
+            href="https://www.linkedin.com/in/mohammed-abdi-641917202/"
+            class="link"
+            target="_blank"
+          >
+            <i class="bx bxl-linkedin"></i>
+          </a>
+          <a
+            href="mailto:mohammedabdi.to@gmail.com"
+            class="link"
+            target="_blank"
+          >
+            <i class="bx bxs-envelope"></i>
+          </a>
+          <a href="https://t.me/yuuichi_sano" class="link" target="_blank">
+            <i class="bx bxl-telegram"></i>
+          </a>
+          <a
+            href="https://web.facebook.com/mohammed.abdi.71619533"
+            class="link"
+            target="_blank"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/yuuichi_sano/"
+            class="link"
+            target="_blank"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+        </div>
+      </section>
     </main>
+    <footer><span>&copy;2025 | Mohammed Abdi</span></footer>
   </body>
 </html>

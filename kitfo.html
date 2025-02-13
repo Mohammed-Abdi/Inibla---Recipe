@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>kitfo-Recipe</title>
+    <link rel="icon" href="images/Logo/Light-orange-M-logo.svg" />
+    <link
+      rel="icon"
+      href="images/Logo/dark-orange-M-logo.svg"
+      media="(prefer-color-scheme:dark)"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header id="header" class="hidden">
+      <div class="header">
+        <!--logo-->
+        <a class="logo" href="index.html"
+          ><img src="images/Logo/dark-orange-M-logo.svg" alt=""
+        /></a>
+        <div class="rightSideHeader">
+          <!--Navigation Links-->
+          <ul class="navLinks">
+            <li><a href="index.html" class="navLink">HOME</a></li>
+          </ul>
+          <!--Search-->
+          <form action="">
+            <input
+              class="searchBar"
+              type="text"
+              placeholder="Search..."
+              required
+            /><button class="searchButton">
+              <i class="bx bx-search"></i>
+            </button>
+          </form>
+          <!--Menu for narrow devices-->
+        </div>
+        <div class="menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+    <main id="otherWrapper" class="hidden">
+      <div class="image">
+        <img src="images/samples/kitfo.webp" alt="kitfo" />
+      </div>
+      <section id="recipe-detail">
+        <h2><span class="colored">Kitfo</span> Recipe</h2>
+        <div class="recipe-details">
+          <p>
+            Kitfo is a traditional Ethiopian dish made from finely minced raw
+            beef, seasoned with mitmita (a spicy chili powder blend) and niter
+            kibbeh (clarified spiced butter). It can be served raw, lightly
+            cooked (leb leb), or fully cooked, accompanied by injera or kocho.
+          </p>
+          <h3>Ingredients:</h3>
+          <div class="ingredients-list">
+            <div class="ingredient-item">
+              <span>Fresh lean beef</span>
+              <span>500g</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Niter kibbeh (spiced clarified butter)</span>
+              <span>4 tbsp</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Mitmita (spicy chili powder)</span>
+              <span>1 tsp</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Salt</span>
+              <span>To taste</span>
+            </div>
+            <div class="ingredient-item">
+              <span>Injera or kocho (for serving)</span>
+              <span>As needed</span>
+            </div>
+          </div>
+
+          <h3>Instructions:</h3>
+          <ol>
+            <li>Finely mince the beef or have it minced by your butcher.</li>
+            <li>
+              In a small pan, melt the niter kibbeh over low heat until fully
+              liquefied.
+            </li>
+            <li>
+              In a mixing bowl, combine the minced beef, melted niter kibbeh,
+              mitmita, and salt.
+            </li>
+            <li>
+              Mix well until the beef is evenly coated with the seasoning.
+            </li>
+            <li>
+              Serve the Kitfo raw (traditional), or cook it lightly in a pan for
+              1-2 minutes (leb leb) for a rare texture.
+            </li>
+            <li>
+              Serve warm with injera or kocho, and garnish with ayib (Ethiopian
+              cottage cheese) and gomen (collard greens), if desired.
+            </li>
+          </ol>
+
+          <h3>Tips:</h3>
+          <ul>
+            <li>Use the freshest beef possible for the best flavor.</li>
+            <li>Adjust the amount of mitmita to your spice preference.</li>
+            <li>
+              Niter kibbeh is essential for authentic flavor, but you can use
+              regular clarified butter if unavailable.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
