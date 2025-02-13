@@ -36,7 +36,6 @@ main.addEventListener("click", () => {
 });
 
 //rating
-
 const starButtons = document.querySelectorAll(".starButton");
 
 starButtons.forEach((button) => {
