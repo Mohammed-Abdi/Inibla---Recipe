@@ -22,6 +22,10 @@
   transition: all 0.7s ease-in-out;
 }
 
+#wrapper .recipe.place {
+  display: none !important;
+}
+
 #wrapper .recipe.show {
   transform: scale(1);
   opacity: 1;
