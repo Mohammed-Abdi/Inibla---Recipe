@@ -50,12 +50,14 @@ starButtons.forEach((button) => {
 const searchBar = document.querySelector(".searchBar");
 const recipes = document.querySelectorAll(".recipe");
 
+//hide all other recipes
 searchBar.addEventListener("click", () => {
   recipes.forEach((recipe) => {
     recipe.classList.add("place");
   });
 });
 
+//filter the choices
 searchBar.addEventListener("input", (e) => {
   const searchTerm = e.target.value.trim().toLowerCase();
 
