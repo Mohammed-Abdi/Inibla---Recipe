@@ -45,3 +45,29 @@ starButtons.forEach((button) => {
     star.classList.toggle("colorChange");
   });
 });
+
+//search engine
+const searchBar = document.querySelector(".searchBar");
+const recipes = document.querySelectorAll(".recipe");
+
+searchBar.addEventListener("click", () => {
+  recipes.forEach((recipe) => {
+    recipe.classList.add("place");
+  });
+});
+
+searchBar.addEventListener("input", (e) => {
+  const searchTerm = e.target.value.trim().toLowerCase();
+
+  if (searchTerm === "") {
+    recipes.forEach((recipe) => recipe.classList.remove("place"));
+  } else {
+    recipes.forEach((recipe) => {
+      const title = recipe
+        .querySelector(".recipeTitle")
+        .textContent.toLowerCase();
+      const isMatch = title.includes(searchTerm);
+      recipe.classList.toggle("place", !isMatch);
+    });
+  }
+});

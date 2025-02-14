@@ -88,9 +88,9 @@
 .header .searchBar {
   border: none;
   background: var(--smokyWhite);
-  padding: 8px 16px;
+  padding: 8px 30px;
   width: clamp(120px, 1rem + 10vw, 200px);
-  border-radius: 15.665px;
+  border-radius: 15px;
   margin-right: 2px;
 }
 
@@ -99,17 +99,14 @@
   align-items: center;
   justify-content: center;
   padding-inline: 15px 0;
+  position: relative;
 }
 
-.header .searchButton {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 31.33px;
-  height: 31.33px;
-  border: none;
-  background: var(--smokyWhite);
-  border-radius: 15.665px;
+form #internalSearchIcon {
+  position: absolute;
+  left: 27px;
+  opacity: 0.5;
+  color: var(--black);
 }
 
 .header .menu {
@@ -172,11 +169,11 @@
     transform: translateX(0);
   }
   .header .searchBar {
-    border: none;
-    background: var(--smokyWhite);
-    padding: 8px 16px;
-    width: clamp(1rem, 1rem + 50vw, 200px);
-    border-radius: 15.665px;
+    width: clamp(1rem, 1rem + 60vw, 250px);
     margin-right: 2px;
   }
+}
+
+.recipe.place {
+  display: none !important;
 }
