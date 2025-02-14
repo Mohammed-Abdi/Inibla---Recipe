@@ -1,6 +1,6 @@
-# 🍴 **Recio** – Your Personal Recipe Hub  
+# 🍴 **m-Recipe** – Your Personal Recipe
 
-Welcome to **Recio**, a beautifully designed recipe collection app built with **HTML**, **CSS**, and **JavaScript**. Whether you're a cooking enthusiast or a web development learner, Recio offers a simple, intuitive platform to discover and manage your favorite recipes.
+Welcome to **m-Recipe**, a beautifully designed recipe collection app built with **HTML**, **CSS**, and **JavaScript**. Whether you're a cooking enthusiast or a web development learner, Recio offers a simple, intuitive platform to discover and manage your favorite recipes.
 
 ---
 
