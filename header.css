@@ -140,6 +140,10 @@ form #internalSearchIcon {
   transform: rotate(-45deg) translate(0.265625rem, -0.265625rem);
 }
 
+.backButton {
+  padding: 0.625rem;
+}
+
 @media (max-width: 35.5rem) {
   .header {
     padding: 5px 10px;
